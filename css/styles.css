@@ -1,0 +1,151 @@
+body{
+  background-color: #ff4c68;
+}
+#title {
+    /* background-color: #ff667d; */
+    background-color: #ff4c68;
+    color:white;
+    position: relative;
+
+}
+
+}
+#h1{
+  font-family: 'Oswald';
+  font-size: 3.5em;
+  line-height: 1.5;
+  padding-top: 2rem;
+}
+#h2 #h21{
+  font-family: 'Oswald';
+  line-height: 2rem;
+  font-size: 2.5rem;
+}
+
+.container-fluid{
+  padding: 0% 15% 10%;
+}
+.abc{
+  padding-bottom: 3%;
+}
+.x{
+  padding-top: 10px; padding-right: 250px; padding-left: 250px;
+}
+
+#navbar{
+  margin-bottom: 3.5rem;
+  padding-left: 0;
+}
+#brand{
+  font-size: 2rem;
+}
+.navbar-nav{
+  font-size: 1.2rem;
+}
+.title-img{
+  width: 60%;
+  /* height: 130%; */
+  float: right;
+  transform: rotate(25deg);
+  /* z-index: 0; */
+  position: absolute;
+  padding-top: 14%;
+
+
+}
+#features{
+  padding: 10% 15% 7%;
+  position: relative;
+  background-color: #fff;
+  /* z-index: 1; */
+}
+.feature-box{
+    text-align: center;
+    padding: 6%;
+}
+.feature-box p{
+   font-style: italic;
+   color: #8f8f8f;
+}
+.fas{
+  color: #ef8172;
+}
+.fas:hover{
+  color: red;
+}
+
+#testimonials{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+.testimonial-image{
+  width: 50%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  padding: 7% 0%;
+  text-align: center;
+  font-style:italic;
+  background-color: #ef8172;
+}
+
+#pricing{
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+@media screen and (max-width: 998px ){
+ .title-img{
+   position: static;
+   transform: rotate(0deg);
+   width: 80%;
+ }
+}
+
+ #title{
+   text-align: center;
+
+ }
+ #landing{
+     background-color: #ff4c68;
+     height: 90vh;
+ }
+ #footer{
+   background-color: #fff;
+ }
+ .header{
+   font-family: 'Kanit', sans-serif;
+   font-size: 200%;
+   text-align: center;
+   color: #fff;
+
+ }
+ .caption{
+   padding: 30vh 0;
+   padding-bottom: 0;
+   font-size: 2em;
+ }
+ .but{
+   text-align: center;
+   margin-top: 60px;
+ }
+ .butt{
+   margin: 0 30px 0;
+ }
+ .icons{
+   text-align: center;
+   margin: 100px 0 20px;
+   color: #808080;
+ }
+
+ .icons>i{
+   font-size: 1.5em;
+   margin: 0 15px ;
+ }
+ .icons h3{
+   margin-top: 10px;
+ }
